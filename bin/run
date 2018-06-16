@@ -18,4 +18,4 @@ song.save
 puts Song.find_by_name("Hello")
 puts Song.find_by_name("1950")
 
-# DB[:conn].execute("SELECT * FROM songs")
+DB[:conn].execute("SELECT * FROM songs")
